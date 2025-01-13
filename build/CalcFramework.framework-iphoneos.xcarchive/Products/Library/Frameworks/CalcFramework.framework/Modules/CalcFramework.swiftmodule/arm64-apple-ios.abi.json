@@ -1,0 +1,65 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CalcFramework",
+    "printedName": "CalcFramework",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Framework",
+        "printedName": "Framework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "framework",
+            "printedName": "framework()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13CalcFramework0B0C9frameworkyyFZ",
+            "mangledName": "$s13CalcFramework0B0C9frameworkyyFZ",
+            "moduleName": "CalcFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13CalcFramework0B0C",
+        "mangledName": "$s13CalcFramework0B0C",
+        "moduleName": "CalcFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

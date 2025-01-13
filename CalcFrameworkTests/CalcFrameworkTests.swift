@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import CalcFramework
+import CalcLibrary
 
 final class CalcFrameworkTests: XCTestCase {
 
@@ -19,6 +20,7 @@ final class CalcFrameworkTests: XCTestCase {
     }
 
     func testExample() throws {
+        Calc.calc()
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.

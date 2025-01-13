@@ -1,0 +1,6 @@
+framework module CalcFramework {
+  umbrella header "CalcFramework.h"
+  export *
+
+  module * { export * }
+}
